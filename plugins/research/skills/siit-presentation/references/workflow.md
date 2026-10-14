@@ -1,8 +1,16 @@
 # Presentation workflow
 
-## Phase 1: narrative draft in Google Slides
+## Authoring surface
 
-Use Google Slides as the canonical working surface while the research story is changing.
+Use editable PPTX for drafting, revision, and final delivery by default. Follow the user's
+explicit format choice and the active harness's presentation policy. A Google Slides style
+reference does not require authoring in Google Slides; see the explicit Slides workflow below
+when the user selects that surface.
+
+## Phase 1: narrative draft
+
+For a new PPTX deck, start from the sanitized seed and normalized THMX.
+Keep the chosen native deck canonical while the research story changes.
 
 - Establish the audience, talk length, central claim, and evidence boundary.
 - Draft the slide sequence before detailed styling.
@@ -19,10 +27,6 @@ Use Google Slides as the canonical working surface while the research story is c
   empty title paragraphs: identical box coordinates can still render at different heights when a
   vertically centered title contains trailing blank lines.
 
-If Google Slides cannot be accessed or edited, stop before authoring and ask the user how to
-proceed. Continue with an editable PPTX draft only when the user explicitly chooses a local-only
-or PPTX-first workflow. Do not infer that choice from tool unavailability.
-
 ## Phase 2: revision
 
 Revise argument and layout together.
@@ -34,24 +38,12 @@ Revise argument and layout together.
 - Remove duplicate setup, premature detail, and transitions that do not advance the argument.
 - Replace placeholders with source-backed figures, tables, citations, and results.
 - Keep speaker-only explanation in notes when the working surface supports it.
-- Do not move to detailed PowerPoint finishing while slide order or visible copy remains volatile.
+- Stabilize slide order, visible copy, figures, layout families, and talk duration before detailed
+  finishing. A later narrative change is appropriate when finishing exposes a communication defect.
 
-## Slides-to-PowerPoint gate
+## Phase 3: detailed finishing
 
-Move to PowerPoint when all of the following are stable:
-
-- slide sequence;
-- visible slide copy;
-- required figures and evidence;
-- approximate layout family for every slide;
-- expected talk duration and section balance.
-
-A later narrative change is allowed when finishing reveals a real communication defect, but avoid
-using PowerPoint as the primary brainstorming surface.
-
-## Phase 3: detailed PowerPoint finishing
-
-Use the normalized THMX and sanitized PPTX seed.
+For PPTX, refine the same draft without an intermediate format conversion.
 
 - Apply masters and layouts without reintroducing legacy fonts.
 - Set Latin, East Asian, and complex-script declarations to `Noto Sans KR`.
@@ -75,6 +67,14 @@ Inspect the actual exported artifact, not only the authoring surface.
   remaining role, and inspect every affected slide in the rendered deck.
 - Verify that every reported number and citation matches its source.
 - Deliver the editable source plus a stable inspection format when requested.
+
+## Explicit Google Slides workflows
+
+Use Google Slides when the user explicitly requests it for authoring, collaboration, or delivery,
+including edits to an existing native deck. Keep that deck canonical; apply the same narrative
+and style criteria, and export PPTX only when requested. If access is unavailable, report the
+limitation, continue independent authorized work, and ask for an alternative only when the
+requested surface must change. A PPTX task does not require Google Slides access.
 
 ## HTML reference
 

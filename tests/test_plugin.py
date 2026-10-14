@@ -14,7 +14,7 @@ spec.loader.exec_module(bootstrap)
 
 class PluginTests(unittest.TestCase):
     def test_both_plugins_contain_their_skills_and_runtime(self):
-        self.assertEqual(bootstrap.verify_install({'installedPath': str(RESEARCH)}, 'research'), '1.1.0')
+        self.assertEqual(bootstrap.verify_install({'installedPath': str(RESEARCH)}, 'research'), '1.1.1')
         self.assertEqual(bootstrap.verify_install({'installedPath': str(MANAGEMENT)}, 'management'), '1.0.0')
         market = json.loads((ROOT / '.agents/plugins/marketplace.json').read_text())
         self.assertEqual(market['name'], 'junwon')

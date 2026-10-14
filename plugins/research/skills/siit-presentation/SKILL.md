@@ -1,6 +1,6 @@
 ---
 name: siit-presentation
-description: Create or revise research presentations through a Google Slides-first narrative workflow and detailed PowerPoint finishing in the user's preferred SIIT/KAIST visual style. Use when the user requests their saved presentation design, SIIT styling, or coordinated Google Slides, PPTX, or HTML presentation work; do not apply it to unrelated styles unless requested.
+description: Create or revise research presentations in the user's SIIT/KAIST style, using editable PPTX by default. Use for SIIT styling or the saved presentation design; do not apply it to unrelated styles unless requested.
 ---
 
 # SIIT presentation
@@ -21,12 +21,8 @@ Read [references/layout-catalog.md](references/layout-catalog.md) when choosing 
 - Use `Noto Sans KR` for every editable text element in Google Slides, PowerPoint, and HTML,
   including Korean, Latin text, numbers, captions, and citations.
 - Work in 16:9 unless the user or venue specifies another size.
-- Use Google Slides for the first draft and narrative/layout iteration unless the user explicitly
-  requests a local-only or PPTX-first workflow.
-- If Google Slides cannot be accessed or edited, ask the user how to proceed and wait for their
-  answer. Do not silently substitute PPTX, HTML, or another authoring surface.
-- Move to PowerPoint only after the sequence and visible copy are stable, then finish master
-  application, exact spacing, alignment, line breaks, figure treatment, and export quality.
+- Follow [workflow.md](references/workflow.md) for authoring-surface selection, narrative revision,
+  and detailed finishing. Keep the same canonical deck across these stages.
 - Use HTML as an inspectable visual prototype or design reference, not as a substitute when
   the user requested an editable Slides or PowerPoint deliverable.
 - Preserve editable text, shapes, charts, and tables whenever the target format allows it.
@@ -41,8 +37,8 @@ Read [references/layout-catalog.md](references/layout-catalog.md) when choosing 
 4. Prefer one large diagram, figure, or comparison over dense prose. Use blue for the main
    conceptual path and green for extension, complementarity, or positive evidence.
 5. Keep citations and qualifications quiet but readable near the bottom edge.
-6. At the Slides-to-PowerPoint gate, freeze slide order and visible copy unless a finishing
-   problem exposes a genuine narrative defect.
+6. Stabilize slide order and visible copy before detailed finishing; revise them when finishing
+   exposes a genuine narrative defect.
 7. Inspect the final PPTX and exported PDF or images for clipping, font substitution, weak
    contrast, crowded figures, inconsistent alignment, and broken page boundaries.
 
